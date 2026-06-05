@@ -19,7 +19,7 @@ A production-ready, single-command shell script that installs **Asterisk 22 from
 ## Quick Start
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-user>/<your-repo>/main/install_asterisk22.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nooraimanr/install-asterisk22/refs/heads/main/install_asterisk22.sh | bash
 ```
 
 You will be prompted to confirm before anything is installed.
@@ -30,13 +30,13 @@ You will be prompted to confirm before anything is installed.
 
 ### Interactive (default)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-user>/<your-repo>/main/install_asterisk22.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nooraimanr/install-asterisk22/refs/heads/main/install_asterisk22.sh | bash
 ```
 
 ### Unattended / CI
 Skips the confirmation prompt — suitable for automated provisioning:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-user>/<your-repo>/main/install_asterisk22.sh | bash -s -- --skip-confirm
+curl -fsSL https://raw.githubusercontent.com/nooraimanr/install-asterisk22/refs/heads/main/install_asterisk22.sh | bash -s -- --skip-confirm
 ```
 
 ### Dry run
